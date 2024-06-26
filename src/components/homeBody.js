@@ -37,7 +37,7 @@ function HomeBody(){
             }
         
 }))
-    },[selectedcategories,price,searchValue])
+    },[selectedcategories,price,searchValue,products])
 
     const productsCard=filteredProducts.map((product)=>{
             return(<Card product={product} />)
