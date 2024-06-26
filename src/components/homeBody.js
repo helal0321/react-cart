@@ -4,7 +4,7 @@ import { fetchProducts } from './rtk/product_reducer'
 import { useEffect } from 'react'
 import { useDispatch,useSelector } from 'react-redux'
 import { useState } from 'react'
-import { resetFilter } from './rtk/priceReducer'
+import { resetFilter } from './rtk/filter_reducer'
 
 
 function HomeBody(){
