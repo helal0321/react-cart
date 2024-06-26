@@ -1,10 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Nav from './components/nav';
 import './components/css/container.css'
 import './components/css/global.css'
-import Filter from './components/filter';
 import Home from './components/home';
 import { Route,Routes } from 'react-router-dom';
 import CardDetails from './components/card_details';
