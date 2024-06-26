@@ -2,10 +2,7 @@ import './css/filter.css'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useDispatch,useSelector } from 'react-redux'
-import { setPrice } from './rtk/priceReducer'
-import { fetchCategories } from './rtk/priceReducer'
-import { set_categories } from './rtk/priceReducer'
-import { resetFilter } from './rtk/priceReducer'
+import {setPrice,fetchCategories,set_categories,resetFilter} from './rtk/filter_reducer'
 function Filter(){
 
     const handleCategory=(e)=>{
