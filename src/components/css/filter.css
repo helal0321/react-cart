@@ -1,0 +1,110 @@
+.filter{
+    flex-basis: 20%;
+    border-right: 1px solid #BDBDBD;
+    height: calc(100vh - 61px);
+    z-index: 20;
+    background-color: white;
+}
+.filter .box{
+    padding: 15px;
+
+}
+.filter .category{
+    border-bottom: 1px solid var(--border-color);
+}
+.filter .category h1{
+    margin-bottom: 10px;
+}
+.filter .category ul{
+    padding: 15px;
+}
+.filter .category ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+.filter .category input[type="checkbox"]{
+    width: 0;
+    height: 0;
+}
+.filter .category input:checked+label::before{
+    
+    opacity: 1;
+}
+.filter .category input:checked+label{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.filter .category label{
+    position: relative;
+    transition: .3s;
+}
+.filter .category label::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    display: flex;
+    left: -15px;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .3s;
+
+}
+.filter .category input[type="submit"]{
+    width: 100%;
+    border: none;
+    padding: 11px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.filter .setPrice{
+
+}
+.filter .setPrice h1{
+    margin-bottom: 15px;
+}
+.filter .setPrice .setprice{
+
+}
+.filter .setPrice .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+.filter .setPrice .row input[type="number"]{
+    padding: 4px;
+    width: 100%;
+}
+.filter .setPrice input[type="submit"]{
+    width: 100%;
+    border: none;
+    padding: 11px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.filter .category input[type="submit"]:hover,.filter .setPrice input[type="submit"]:hover{
+    background-color: var(--secondary-color);
+
+}
+.reset{
+    width: 100%;
+    border: navajowhite;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 60px;
+}

@@ -1,0 +1,47 @@
+.card{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 181px;
+    padding: 15px;
+}
+.card .cardBox{
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+
+}
+.card .cardBox p{
+    font-weight: bold;
+    
+}
+.card .cardBox  a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.card .cardBox  a:hover{
+    color: var(--main-color);
+}
+.card .cardBox .row{
+    display: flex;
+    justify-content: space-between;
+}
+.card .cardBox .row p{
+
+}
+.card .cardBox .row p span{
+
+}
+.card .cardBox .row button{
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 7px 26px;
+    border-radius: 5px;
+    border: none;
+}

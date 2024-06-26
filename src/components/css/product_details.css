@@ -1,0 +1,102 @@
+.product_details{
+    padding-top: 99px;
+    
+}
+.product_details .container{
+    display: flex;
+    align-items: center;
+}
+.product_details img{
+    max-width: 100%;
+    width: 491px;
+    height: 491px;
+    border-radius: 5px;
+    margin-right: 89px;
+}
+.product_details .box_content{
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 5px;
+    height: fit-content;
+}
+.product_details .box_content p:first-child{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.product_details .box_content h1{
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin-bottom: 45px;
+}
+.product_details .box_content p:nth-child(3){
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+.product_details .box_content p:nth-child(4){
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #424242;
+}
+.product_details .box_content p:nth-child(5){
+    text-align: center;
+}
+.product_details .box_content .counter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    align-items: center;
+}
+.product_details .box_content .counter span{
+    width: 45px;
+    height: 45px;
+    /* display: block; */
+    background-color: #DCEDC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.product_details .box_content .counter button{
+    border: none;
+    width: 37px;
+    height: 37px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+    border: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.product_details .box_content .counter button:first-child{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.product_details .box_content .counter button:last-child{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.product_details .box_content .counter .buttons{
+    display: flex;
+    align-items: center;
+}
+.product_details .box_content .counter p{
+    font-weight: bold;
+    font-size: 21px;
+}
+.product_details .box_content .counter+button{
+
+    width: 100%;
+    padding: 14px;
+    color: white;
+    border: navajowhite;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+

@@ -1,0 +1,17 @@
+.notfound{
+    text-align: center;
+    margin-top: 135px;
+    border: 2px solid var(--border-color);
+    padding: 35px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
+    color: var(--secondary-color);
+
+
+
+}
+.notfound h1{
+
+}
