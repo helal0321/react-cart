@@ -1,11 +1,8 @@
 import avatar from '../avatar-03.jpg'
 import './css/cart.css'
 import { useSelector,useDispatch } from 'react-redux'
-import { deleteFromCart } from './rtk/cart_reducer'
-import { clearCart } from './rtk/cart_reducer'
-import { increaseAmount,decreaseAmount } from './rtk/cart_reducer'
-import { removeProduct } from './rtk/cart_reducer'
-import { setPrice } from './rtk/priceReducer'
+import {deleteFromCart,clearCart,increaseAmount,decreaseAmount,removeProduct} from './rtk/cart_reducer'
+import { setPrice } from './rtk/filter_reducer'
 function Cart(){
 
     const HandleAmount=(data,value)=>{
